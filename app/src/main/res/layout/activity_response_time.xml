@@ -8,9 +8,42 @@
 
     <Button
         android:id="@+id/touchbtn"
-        android:layout_width="453dp"
-        android:layout_height="805dp"
-        android:text="Touch to start"
-        tools:layout_editor_absoluteX="-21dp"
-        tools:layout_editor_absoluteY="-37dp" />
+        android:layout_width="236dp"
+        android:layout_height="133dp"
+        android:text="touch to start!"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#C85151"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/waitText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#C85151"
+        android:text="Wait for Green..."
+        android:textColor="#ffffff"
+        android:textSize="70sp"
+        android:gravity="center"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/view" />
+
+    <View
+        android:id="@+id/Green"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#52EA41" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
